@@ -80,6 +80,7 @@ void loop() {
   digitalWrite(sp, LOW);
   delayMicroseconds(500);
 }
+```
 ## 📂 Arduino Sketch – Stepper Motor Control
 
 This sketch controls the stepper motor to create **uniform rotation** in the rotating fluid experiment.
