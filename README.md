@@ -55,7 +55,7 @@ Rotating fluid phenomena are foundational in:
 | Jumper Wires + Breadboard | Connections & layout |
 
 🔌 **Basic Circuit**  
-![Circuit Diagram](https://i.imgur.com/xUbbdyu.png)  
+![Circuit Diagram]()  
 <sub>*Custom turntable setup using A4988 & Arduino*</sub>
 
 ---
