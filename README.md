@@ -62,7 +62,7 @@ Rotating fluid phenomena are foundational in:
 
 ## ⚙️ Arduino Code
 
-Save this as `rotating_fluid.ino`:
+Saved this as `rotating_fluid.ino`:
 
 ```cpp
 const int dp = 2;
@@ -83,30 +83,6 @@ void loop() {
 ## 📂 Arduino Sketch – Stepper Motor Control
 
 This sketch controls the stepper motor to create **uniform rotation** in the rotating fluid experiment.
-
-```cpp
-// Rotating Fluid Vortex Experiment - Stepper Motor Control
-// Uses A4988 Driver and NEMA17 Stepper with Arduino UNO
-
-const int dirPin = 2;
-const int stepPin = 3;
-
-int speedMicroseconds = 500;
-
-void setup() {
-  pinMode(dirPin, OUTPUT);
-  pinMode(stepPin, OUTPUT);
-  digitalWrite(dirPin, HIGH);
-}
-
-void loop() {
-  digitalWrite(stepPin, HIGH);
-  delayMicroseconds(speedMicroseconds);
-  digitalWrite(stepPin, LOW);
-  delayMicroseconds(speedMicroseconds);
-}
-```
-
 ---
 
 ## 🧪 Experiment Procedure
